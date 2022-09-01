@@ -57,7 +57,7 @@ img {
   margin-bottom: 2rem;
 }
 
-.color{
+.hex{
   font-size: 4rem;
   border: 1px solid var(--white);
   padding: 0 1rem;
