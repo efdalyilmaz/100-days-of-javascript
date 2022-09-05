@@ -99,10 +99,32 @@ form button:hover{
 }
 
 @keyframes slide {
-  form {
-    transform: translateY(-30);
+  0% {
+    transform: translateY(-30rem);
   }
-  to {
+  100% {
     transform: translateY(0);
+  }
+}
+
+.close{
+  position: absolute;
+  top: 5px;
+  right:10px;
+  color: var(--color-primary);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.slide-up{
+  animation: slide-up ease .8s;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50rem);
   }
 }
